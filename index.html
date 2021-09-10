@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form </title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="body">
+    <div class="main_container">
+
+        <h1 class="title"> Log In </h1>
+        <p class="subtitle"> And enjoy life during the time you just saved! </p>
+        <div class="button_login_with_container">
+            <button type="button" class="google_login">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M21.7833 8.93722C21.9236 9.67361 22 10.4435 22 11.247C22 17.5314 17.7079 22 11.2252 22C9.75097 22.0004 8.29109 21.7162 6.92898 21.1636C5.56687 20.6109 4.32923 19.8007 3.28679 18.7792C2.24434 17.7576 1.41751 16.5448 0.853553 15.21C0.289593 13.8753 -0.000448965 12.4447 5.21637e-07 11C-0.000448965 9.55534 0.289593 8.12474 0.853553 6.78996C1.41751 5.45518 2.24434 4.24238 3.28679 3.22084C4.32923 2.19931 5.56687 1.38907 6.92898 0.836429C8.29109 0.283783 9.75097 -0.000439958 11.2252 5.11172e-07C14.2562 5.11172e-07 16.7888 1.09285 18.7319 2.86733L15.5675 5.9682V5.96038C14.3896 4.86083 12.8946 4.29653 11.2252 4.29653C7.52148 4.29653 4.51107 7.36276 4.51107 10.9933C4.51107 14.6227 7.52148 17.6957 11.2252 17.6957C14.5857 17.6957 16.8732 15.8128 17.343 13.227H11.2252V8.93722H21.7845H21.7833Z" />
+                </svg> <span>Login with Google</span></button>
+            <button type="button" class="facebook_login"><svg width="14" height="24" viewBox="0 0 14 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M9.0949 24V13.0703H13.2412L13.8575 8.79094H9.0949V6.06518C9.0949 4.83032 9.48179 3.98485 11.4747 3.98485H14V0.169586C12.7713 0.0524886 11.5363 -0.00405133 10.3006 0.00022559C6.6356 0.00022559 4.11932 1.98987 4.11932 5.64245V8.78294H0V13.0623H4.12832V24H9.0949Z"
+                        fill="#0962FF" />
+                </svg> <span>Login with
+                    Facebook</span></button>
+        </div>
+
+        <form class="form">
+            <label for="mail_or_name">Log in</label>
+            <input type="text" placeholder="Email or Phone Number" id="mail_or_phone" name="mail_or_phone">
+
+            <label for="user_password">Password</label>
+            <input type="password" placeholder="8+ Chapters, 1 Capital Letter" id="user_password" name="user_password">
+
+            <div class="remember_me_container">
+
+                
+                    <label for="remember_me" class="label_container"> <input type="checkbox" id="remember_me" name="remember_me"> <span class="checkmark"></span>Remember me</label>
+
+                <a href="#"> Forgote your password? </a>
+            </div>
+
+            <button type="submit" class="button_submit"> Login </button>
+
+        </form>
+        <div class="registration_container">
+            <p> Don't have an account?</p>
+            <a href="#">Register</a>
+        </div>
+
+    </div>
+</body>
+
+</html>
